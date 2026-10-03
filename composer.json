@@ -1,0 +1,30 @@
+{
+    "name": "fredpiuma/custom-installments-for-woocommerce",
+    "description": "Extensão que permite exibir o parcelamento, desconto e juros por forma de pagamento para lojas WooCommerce.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/fredpiuma/custom-installments-for-woocommerce",
+    "authors": [
+        {
+            "name": "Frederico de Castro",
+            "homepage": "https://www.fredericodecastro.com.br/links",
+            "role": "Maintainer"
+        },
+        {
+            "name": "MeuMouse.com",
+            "homepage": "https://meumouse.com",
+            "role": "Original author"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "FredericoDeCastro\\Custom_Installments\\": "inc/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
